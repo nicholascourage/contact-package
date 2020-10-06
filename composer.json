@@ -1,0 +1,16 @@
+{
+    "name": "virtus-web-media/contact-form",
+    "description": "A contact form package for Laravel",
+    "authors": [
+        {
+            "name": "Nick Courage",
+            "email": "nicholadcourage@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "VirtusWebMedia\\ContactForm\\": "src/"
+        }
+    }
+}
