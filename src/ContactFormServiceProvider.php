@@ -12,7 +12,7 @@ class ContactFormServiceProvider extends ServiceProvider
     {
         $this->loadRoutesFrom(__DIR__ . '/routes/web.php');
         $this->loadViewsFrom(__DIR__ . '/resources/views', 'contactform');
-        $this->loadMigrationsFrom(__DIR__ . '/Database/migrations');
+        $this->loadMigrationsFrom(__DIR__ . '/database/migrations');
         
     }
     public function register()
