@@ -12,5 +12,12 @@
         "psr-4": {
             "VirtusWebMedia\\ContactForm\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "VirtusWebMedia\\ContactForm\\ContactFormServiceProvider"
+            ]
+        }
     }
 }
